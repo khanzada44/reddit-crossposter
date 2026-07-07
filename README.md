@@ -106,21 +106,21 @@ Step 3: Configure Environment Variables
 Create .env file in the root directory:
 
 # Reddit API Credentials
-REDDIT_CLIENT_ID=your_client_id_here
-REDDIT_CLIENT_SECRET=your_client_secret_here
-REDDIT_USERNAME=your_reddit_username
-REDDIT_PASSWORD=your_reddit_password
-REDDIT_USER_AGENT=MyRedditBot/1.0 (by /u/your_username)
+- REDDIT_CLIENT_ID=your_client_id_here
+- REDDIT_CLIENT_SECRET=your_client_secret_here
+- REDDIT_USERNAME=your_reddit_username
+- REDDIT_PASSWORD=your_reddit_password
+- REDDIT_USER_AGENT=MyRedditBot/1.0 (by /u/your_username)
 
 # Bot Configuration
-SOURCE_SUBREDDIT=python
-TARGET_SUBREDDITS=learnpython,programming,coding
-POST_LIMIT=10
-DELAY_BETWEEN_POSTS=60
-MAX_RETRIES=3
+- SOURCE_SUBREDDIT=python
+- TARGET_SUBREDDITS=learnpython,programming,coding
+- POST_LIMIT=10
+- DELAY_BETWEEN_POSTS=60
+- MAX_RETRIES=3
 
 # Database
-DATABASE_URL=sqlite:///data/bot.db
+- DATABASE_URL=sqlite:///data/bot.db
 
 # Logging
 LOG_LEVEL=INFO
@@ -212,7 +212,7 @@ Log Rotation:
 ---
 
 ## Project Structure
-
+```text
 reddit-bot/
 ├── src/
 │   ├── __init__.py
@@ -248,7 +248,7 @@ reddit-bot/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## Error Handling
