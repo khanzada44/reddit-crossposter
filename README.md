@@ -375,7 +375,7 @@ Community Support:
 - r/learnpython: https://www.reddit.com/r/learnpython/
 
 Contact:
-- Email: wahaj13209@gmail.com
+- Email: minhamhussain@gmail.com
 
 ---
 
