@@ -6,8 +6,6 @@ from pydantic_settings import BaseSettings
 from pydantic import Field, validator
 from functools import lru_cache
 
-
-
 class RedditConfig(BaseSettings):
     """Reddit API configuration."""
     
