@@ -1,5 +1,8 @@
 """Main application entry point."""
 
+import utils.http_session
+import utils.transport
+import utils.session
 import sys
 import time
 from pathlib import Path
